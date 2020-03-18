@@ -67,7 +67,7 @@ def preberi_datoteko(ime_datoteke):
     return Sudoku(prebrano)
 
 sudoku = preberi_datoteko(
-    "sudoku/sudoku.in"
+    "sudoku.in"
 )
 
 print(sudoku.lep_izpis())
